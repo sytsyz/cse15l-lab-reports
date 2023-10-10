@@ -3,7 +3,7 @@
 >![Image](1691696897320_.pic.jpg)
 - all working directory for the 3 commands are home
 - For "ls" command, the result displayed subdirectory "lecture1" as ls command shows the content of current directory.
-- For "cd" command, the directory was not changed due to the lack of argument.
+- For "cd" command, the directory was not changed due to the lack of argument，since cd no argument would return to home directory.
 - For "cat" command, no content was displayed due to the lack of argument.
 
 2. Commands with directory argument
