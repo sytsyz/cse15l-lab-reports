@@ -7,7 +7,7 @@
 - For "ls" command, the result displayed subdirectory "lecture1" as ls command shows the content of current directory.
 - For "cd" command, the directory was not changed due to the lack of argument，since cd no argument would return to home directory.
 - For "cat" command, no content was displayed due to the lack of argument.
-![Image](ASTC.jpg)
+![Image](ASTC.pic.jpg)
 - when name was entered after the cat command, name was printed, and control C ended this command. 
 
 2. Commands with directory argument
