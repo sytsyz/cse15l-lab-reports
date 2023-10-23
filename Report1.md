@@ -22,5 +22,5 @@
 - working directory for all was lecture1
 - For "ls" command, the result display the name of the file argument. Becuase ls show the name of the file argument when use upon files. 
 - For "cd" command, the output was an error, because "cd" command cannot work with file arguments.
-- For "cat" command, the output was the content of the file argument *README*.
+- For "cat" command, the output was the content of the file argument *README*. 
      
