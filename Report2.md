@@ -14,6 +14,10 @@ Part 1
 Part 2
 ![Image](privatekey2.jpg)
 ![Image](publickey.jpg)
+![Image](nopw.jpg)
+
+part3
+In week 2 and 3, I learned the specific functions/meaning of parts of a url that I encountered everyday. Not only that, through the skill demo practices and the lab reports, I begin to understand how to write code for a website to achieve certain functions such as increment and add phrases. 
 
    
 
