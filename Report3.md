@@ -389,7 +389,7 @@ Unfortunatley this does not apply on directoreis.
 
 
 ## Work Cited
-1. Chat GPT
+Chat GPT
    
    **Prompt: give me 8 grep command-line options that works on files and directories**
    Answer: Certainly! Here are eight `grep` command-line options that can be used for searching text patterns in both files and directories:
@@ -420,8 +420,8 @@ Unfortunatley this does not apply on directoreis.
 
 These options provide you with flexibility when searching for text patterns in both files and directories using `grep`.
 
-**Prompt: is -r the only grep command-line that works on both directory and files?**
-Answer: Yes, the `-r` (recursive) option in `grep` is the primary option that is used to search for text patterns within both directories and files. It allows you to perform a recursive search in directories and their subdirectories, searching for patterns within files contained in those directories.
+   **Prompt: is -r the only grep command-line that works on both directory and files?** 
+   Answer: Yes, the `-r` (recursive) option in `grep` is the primary option that is used to search for text patterns within both directories and files. It allows you to perform a recursive search in directories and their subdirectories, searching for patterns within files contained in those directories.
 
 While some other `grep` options may also apply to directories (such as `-l` for listing matching files), they are typically used to modify the behavior of `grep` when working with individual files rather than directories.
 
