@@ -54,7 +54,54 @@ Chosen bug: ReversedInPlace
     The original code did not fulfill the fuction of reserve the input, it simply rewrite the array in the beginning by the number at the end of the array.
     As a result, the original code will have an output which an array that contains only the last number in the array. The fix address this issue. By adding a temperory
     number holder "temp", the code is now able to store the original number before it get rewrite by the last number of the array, then able to put this temp number towards
-    the last places of the array. 
+    the last places of the array.
+
+## Part 2 Researching Commands: Gerp
+1. -r
+- directory
+```
+linda@Yutongs-MacBook-Pro technical % grep -r "Darwin" biomed
+biomed/1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
+biomed/1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
+   r stands for recursive. grep -r search all things containg keword (in this case "Darwin") of the working directory and its sub directories.
+```
+r stands for recursive. Shen applied to directory, it searches all the files that contains the keyword "Darwin" biomed and its subdirectory, displaying the pathway to the files and the lines in which the keywords is contained. 
+
+- files
+```
+linda@Yutongs-MacBook-Pro biomed % grep -r "Darwin" 1471-2105-3-2.txt 
+1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
+1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
+```
+r stands for recursive. Shen applied to file, it searches all the files that contains the keyword "Darwin" in working directory, displaying the name of the files and the lines in which the keywords is contained. 
+
+2. -w
+- Files
+ ```
+   linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" 1471-2105-3-2.txt
+        In the 1830's, Charles Darwin's investigation of the
+linda@Yutongs-MacBook-Pro biomed % grep  "Darwin" 1471-2105-3-2.txt 
+        In the 1830's, Charles Darwin's investigation of the
+        In the 1970's, Woese and Fox revisited Darwinian
+ ```
+- Directory
+  ```
+  linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" biomed
+  grep: biomed: No such file or directory
+  ```
+
+3. 
+  
+
+
+
+
+   
+
+
+5. 
+   
+
      
 
 
