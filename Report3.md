@@ -424,7 +424,7 @@ Answer: Yes, the `-r` (recursive) option in `grep` is the primary option that is
 
 While some other `grep` options may also apply to directories (such as `-l` for listing matching files), they are typically used to modify the behavior of `grep` when working with individual files rather than directories.
 
-**I did not use or change any of the output, since I just used it as a seaching engine/tutor**
+*I did not use or change any of the output, since I just used it as a seaching engine/tutor*
 
 
    
