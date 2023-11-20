@@ -264,7 +264,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
 4. -v
 - Files
   ```
-  linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
+  	linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
 
   
     
