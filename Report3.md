@@ -255,7 +255,10 @@ in this case, when one looks for can without -w,the result of cannot will also s
 		2249:          Database System
 		2355:        RDBMS = Relational Database Management System.
     ```
-    by using -n and grep title-like keyworkds, one can easily locate where the disire content is
+by using -n and grep title-like keyworkds, one can easily locate where the disire content is
+
+
+
 
   
 4. -v
