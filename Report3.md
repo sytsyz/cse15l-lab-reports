@@ -27,6 +27,7 @@ Chosen bug: ReversedInPlace
      <img width="943" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/06bf5d96-8ab3-4373-a191-acf9eb15ada7">
 4. The Bug
    - Before
+     
    ```
    // Changes the input array to be in reversed order
     static void reverseInPlace(int[] arr) 
@@ -76,6 +77,7 @@ r stands for recursive. Shen applied to file, it searches all the files that con
 
 2. -w
 - Files
+  
  ```
    linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" 1471-2105-3-2.txt
         In the 1830's, Charles Darwin's investigation of the
@@ -83,11 +85,13 @@ r stands for recursive. Shen applied to file, it searches all the files that con
         In the 1830's, Charles Darwin's investigation of the
         In the 1970's, Woese and Fox revisited Darwinian
  ```
+
 w meant wholeword. The result will exclued the lines where the keword is only a phrase of a word. This is usefule for precise search. 
 
 *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
 
 -Files
+
 ```
 	linda@Yutongs-MacBook-Pro biomed % grep "can" 1471-2105-3-2.txt       
 	        those that can only be observed with a microscope, using a
@@ -262,6 +266,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
 
 4. -v
 - Files
+  
   ```
   	linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
 
@@ -482,7 +487,9 @@ in this case, when one looks for can without -w,the result of cannot will also s
             specific URLs.
           
   ```
-  v is invert match. When applied to files, the result of lines that does not contains the key word will be displayed. This is useful when you want to view the file without undisred distracting informations. or words that do not contain a certian alphabet
+
+
+v is invert match. When applied to files, the result of lines that does not contains the key word will be displayed. This is useful when you want to view the file without undisred distracting informations. or words that do not contain a certian alphabet
 
 
 
@@ -490,6 +497,8 @@ in this case, when one looks for can without -w,the result of cannot will also s
 *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
 
 - files
+
+  
   
   ```
 	  grep -v "e" 1471-2105-3-2.txt   
