@@ -60,18 +60,17 @@ Chosen bug: ReversedInPlace
 1. -r
 - directory
 ```
-linda@Yutongs-MacBook-Pro technical % grep -r "Darwin" biomed
-biomed/1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
-biomed/1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
-   r stands for recursive. grep -r search all things containg keword (in this case "Darwin") of the working directory and its sub directories.
+	linda@Yutongs-MacBook-Pro technical % grep -r "Darwin" biomed
+	biomed/1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
+	biomed/1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
 ```
 r stands for recursive. Shen applied to directory, it searches all the files that contains the keyword "Darwin" biomed and its subdirectory, displaying the pathway to the files and the lines in which the keywords is contained. It is usefule to find the desired file with the content in the files. 
 
 - files
 ```
-linda@Yutongs-MacBook-Pro biomed % grep -r "Darwin" 1471-2105-3-2.txt 
-1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
-1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
+	linda@Yutongs-MacBook-Pro biomed % grep -r "Darwin" 1471-2105-3-2.txt 
+	1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
+	1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
 ```
 r stands for recursive. Shen applied to file, it searches all the files that contains the keyword "Darwin" in working directory, displaying the name of the files and the lines in which the keywords is contained. It is usefule to find the desired file with the content in the files. 
 
@@ -80,7 +79,7 @@ r stands for recursive. Shen applied to file, it searches all the files that con
  ```
    linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" 1471-2105-3-2.txt
         In the 1830's, Charles Darwin's investigation of the
-linda@Yutongs-MacBook-Pro biomed % grep  "Darwin" 1471-2105-3-2.txt 
+   linda@Yutongs-MacBook-Pro biomed % grep  "Darwin" 1471-2105-3-2.txt 
         In the 1830's, Charles Darwin's investigation of the
         In the 1970's, Woese and Fox revisited Darwinian
  ```
@@ -90,142 +89,142 @@ w meant wholeword. The result will exclued the lines where the keword is only a 
 
 -Files
 ```
-linda@Yutongs-MacBook-Pro biomed % grep "can" 1471-2105-3-2.txt       
-        those that can only be observed with a microscope, using a
-        that the number of possible structure models can be larger
-        significant findings was the discovery of the third kingdom
-        28 ] . Today, with a significantly larger number of
-        can require very large, phylogenetically and structurally
-        large subunit [ 58 59 ] ) groups). With significant
-            When implemented properly, covariation analysis can
-            lower, although significant, extent of covariation.
-            of possible secondary structure models is significantly
-            significant covariation was identified with our newer
-            nucleotides in a comparative structure model can be
-            can be part of either a secondary structure helix (two
-            These include any non-canonical base pair (not a G:C,
-            are base paired, nucleotides can also be unpaired in
-            they can be within a hairpin loop (nucleotides capping
-            due to a significant number of covariations within the
-            has a significant covariation score (H-2A); thus, only
-            Here, six of the seven alignments have significant
-            sequences can be eliminated from the screen by changing
-            displayed on the screen can also be modulated with the
-            phylogenetic tree that contain a significant number of
-            and variation present in RNA sequence alignments can
-            juxtapositioning or alignment of sequences can be
-            there is a significant amount of variation between the
-            information alone. For these situations, we can
-            associated with the second hand; these can change many
-            sequences contain subsequences that cannot be aligned
-            For these sequences, the majority of the sequence can
-            more sequences with significant similarity in these
-            albicans, and 
-            sequences has increased significantly within the past
-            Entries not shown on the first page can be viewed by
-            PDF, and BPSEQ files can be viewed by clicking the
-            Multiple secondary structure diagrams can be
-            tar file, which can be uncompressed with appropriate
-            limitation can be avoided by subdividing large
-            significant. Newer alignments might also contain
-            Eucarya that have significant numbers of rRNA
-            nucleus, 1.20 for the mitochondria). A significant
-            button. While the user can select the individual fields
-            fields, can be determined with the "V" (values) button
-            (nuclear), and Vir (viral); each can be selected by
-            the main frame, and can be selected by clicking the
-            Sequence Length, and Exon can be determined by
-            The values for these attributes can also be found by
-            can be selected from the main frame), "Common Name"
-            "Intron Position," and "Comment" can only be observed
-            • The number of possible values for an attribute can
-            For mode one, you can systematically navigate
-            the desired goal point; otherwise, mode two can help
-            The "Common Name" attribute can also help identify
-            can make answering questions easier. Take, for example,
-            significantly different orders and overall arrangements
-            you can type numbers into these boxes to set the sort
-            attribute can be reversed (z -> a, high number ->
-            sortings can be reset to the default values by clicking
-            page can be modulated. While the system defaults to 50
-            output page can be set to 20, 100, 200, and 400. The
-            user can scroll to those entries that do not appear on
-            can be retrieved from the results window. The system
-            link is clicked; PDF or BPSEQ files can be obtained
-            listing that can be retrieved in a new window by
-            background), where the user can select the phylogenetic
-            can be navigated with this system. The base
-            can be modulated from one (the default) to five levels
-            tree. The user can enter a partial or complete
-            text can be viewed in the Results Frame by checking the
-            RNA information can be mapped onto the phylogenetic
-            panel in the Selection Frame, the user can choose to
-            phylogenetic/cell location groups can be selected,
-            and four nucleotides. Each category can be searched
-        the search. In parallel, with the significant advancements
-            we do have sequence information but cannot fully
-            cannot be subclassified as IB1, IB2, IB3, or IB4. Those
-linda@Yutongs-MacBook-Pro biomed % grep -w "can" 1471-2105-3-2.txt 
-        those that can only be observed with a microscope, using a
-        that the number of possible structure models can be larger
-        can require very large, phylogenetically and structurally
-            When implemented properly, covariation analysis can
-            nucleotides in a comparative structure model can be
-            can be part of either a secondary structure helix (two
-            are base paired, nucleotides can also be unpaired in
-            they can be within a hairpin loop (nucleotides capping
-            sequences can be eliminated from the screen by changing
-            displayed on the screen can also be modulated with the
-            and variation present in RNA sequence alignments can
-            juxtapositioning or alignment of sequences can be
-            information alone. For these situations, we can
-            associated with the second hand; these can change many
-            For these sequences, the majority of the sequence can
-            Entries not shown on the first page can be viewed by
-            PDF, and BPSEQ files can be viewed by clicking the
-            Multiple secondary structure diagrams can be
-            tar file, which can be uncompressed with appropriate
-            limitation can be avoided by subdividing large
-            button. While the user can select the individual fields
-            fields, can be determined with the "V" (values) button
-            (nuclear), and Vir (viral); each can be selected by
-            the main frame, and can be selected by clicking the
-            Sequence Length, and Exon can be determined by
-            The values for these attributes can also be found by
-            can be selected from the main frame), "Common Name"
-            "Intron Position," and "Comment" can only be observed
-            • The number of possible values for an attribute can
-            For mode one, you can systematically navigate
-            the desired goal point; otherwise, mode two can help
-            The "Common Name" attribute can also help identify
-            can make answering questions easier. Take, for example,
-            you can type numbers into these boxes to set the sort
-            attribute can be reversed (z -> a, high number ->
-            sortings can be reset to the default values by clicking
-            page can be modulated. While the system defaults to 50
-            output page can be set to 20, 100, 200, and 400. The
-            user can scroll to those entries that do not appear on
-            can be retrieved from the results window. The system
-            link is clicked; PDF or BPSEQ files can be obtained
-            listing that can be retrieved in a new window by
-            background), where the user can select the phylogenetic
-            can be navigated with this system. The base
-            can be modulated from one (the default) to five levels
-            tree. The user can enter a partial or complete
-            text can be viewed in the Results Frame by checking the
-            RNA information can be mapped onto the phylogenetic
-            panel in the Selection Frame, the user can choose to
-            phylogenetic/cell location groups can be selected,
-            and four nucleotides. Each category can be searched
+	linda@Yutongs-MacBook-Pro biomed % grep "can" 1471-2105-3-2.txt       
+	        those that can only be observed with a microscope, using a
+	        that the number of possible structure models can be larger
+	        significant findings was the discovery of the third kingdom
+	        28 ] . Today, with a significantly larger number of
+	        can require very large, phylogenetically and structurally
+	        large subunit [ 58 59 ] ) groups). With significant
+	            When implemented properly, covariation analysis can
+	            lower, although significant, extent of covariation.
+	            of possible secondary structure models is significantly
+	            significant covariation was identified with our newer
+	            nucleotides in a comparative structure model can be
+	            can be part of either a secondary structure helix (two
+	            These include any non-canonical base pair (not a G:C,
+	            are base paired, nucleotides can also be unpaired in
+	            they can be within a hairpin loop (nucleotides capping
+	            due to a significant number of covariations within the
+	            has a significant covariation score (H-2A); thus, only
+	            Here, six of the seven alignments have significant
+	            sequences can be eliminated from the screen by changing
+	            displayed on the screen can also be modulated with the
+	            phylogenetic tree that contain a significant number of
+	            and variation present in RNA sequence alignments can
+	            juxtapositioning or alignment of sequences can be
+	            there is a significant amount of variation between the
+	            information alone. For these situations, we can
+	            associated with the second hand; these can change many
+	            sequences contain subsequences that cannot be aligned
+	            For these sequences, the majority of the sequence can
+	            more sequences with significant similarity in these
+	            albicans, and 
+	            sequences has increased significantly within the past
+	            Entries not shown on the first page can be viewed by
+	            PDF, and BPSEQ files can be viewed by clicking the
+	            Multiple secondary structure diagrams can be
+	            tar file, which can be uncompressed with appropriate
+	            limitation can be avoided by subdividing large
+	            significant. Newer alignments might also contain
+	            Eucarya that have significant numbers of rRNA
+	            nucleus, 1.20 for the mitochondria). A significant
+	            button. While the user can select the individual fields
+	            fields, can be determined with the "V" (values) button
+	            (nuclear), and Vir (viral); each can be selected by
+	            the main frame, and can be selected by clicking the
+	            Sequence Length, and Exon can be determined by
+	            The values for these attributes can also be found by
+	            can be selected from the main frame), "Common Name"
+	            "Intron Position," and "Comment" can only be observed
+	            • The number of possible values for an attribute can
+	            For mode one, you can systematically navigate
+	            the desired goal point; otherwise, mode two can help
+	            The "Common Name" attribute can also help identify
+	            can make answering questions easier. Take, for example,
+	            significantly different orders and overall arrangements
+	            you can type numbers into these boxes to set the sort
+	            attribute can be reversed (z -> a, high number ->
+	            sortings can be reset to the default values by clicking
+	            page can be modulated. While the system defaults to 50
+	            output page can be set to 20, 100, 200, and 400. The
+	            user can scroll to those entries that do not appear on
+	            can be retrieved from the results window. The system
+	            link is clicked; PDF or BPSEQ files can be obtained
+	            listing that can be retrieved in a new window by
+	            background), where the user can select the phylogenetic
+	            can be navigated with this system. The base
+	            can be modulated from one (the default) to five levels
+	            tree. The user can enter a partial or complete
+	            text can be viewed in the Results Frame by checking the
+	            RNA information can be mapped onto the phylogenetic
+	            panel in the Selection Frame, the user can choose to
+	            phylogenetic/cell location groups can be selected,
+	            and four nucleotides. Each category can be searched
+	        the search. In parallel, with the significant advancements
+	            we do have sequence information but cannot fully
+	            cannot be subclassified as IB1, IB2, IB3, or IB4. Those
+	linda@Yutongs-MacBook-Pro biomed % grep -w "can" 1471-2105-3-2.txt 
+	        those that can only be observed with a microscope, using a
+	        that the number of possible structure models can be larger
+	        can require very large, phylogenetically and structurally
+	            When implemented properly, covariation analysis can
+	            nucleotides in a comparative structure model can be
+	            can be part of either a secondary structure helix (two
+	            are base paired, nucleotides can also be unpaired in
+	            they can be within a hairpin loop (nucleotides capping
+	            sequences can be eliminated from the screen by changing
+	            displayed on the screen can also be modulated with the
+	            and variation present in RNA sequence alignments can
+	            juxtapositioning or alignment of sequences can be
+	            information alone. For these situations, we can
+	            associated with the second hand; these can change many
+	            For these sequences, the majority of the sequence can
+	            Entries not shown on the first page can be viewed by
+	            PDF, and BPSEQ files can be viewed by clicking the
+	            Multiple secondary structure diagrams can be
+	            tar file, which can be uncompressed with appropriate
+	            limitation can be avoided by subdividing large
+	            button. While the user can select the individual fields
+	            fields, can be determined with the "V" (values) button
+	            (nuclear), and Vir (viral); each can be selected by
+	            the main frame, and can be selected by clicking the
+	            Sequence Length, and Exon can be determined by
+	            The values for these attributes can also be found by
+	            can be selected from the main frame), "Common Name"
+	            "Intron Position," and "Comment" can only be observed
+	            • The number of possible values for an attribute can
+	            For mode one, you can systematically navigate
+	            the desired goal point; otherwise, mode two can help
+	            The "Common Name" attribute can also help identify
+	            can make answering questions easier. Take, for example,
+	            you can type numbers into these boxes to set the sort
+	            attribute can be reversed (z -> a, high number ->
+	            sortings can be reset to the default values by clicking
+	            page can be modulated. While the system defaults to 50
+	            output page can be set to 20, 100, 200, and 400. The
+	            user can scroll to those entries that do not appear on
+	            can be retrieved from the results window. The system
+	            link is clicked; PDF or BPSEQ files can be obtained
+	            listing that can be retrieved in a new window by
+	            background), where the user can select the phylogenetic
+	            can be navigated with this system. The base
+	            can be modulated from one (the default) to five levels
+	            tree. The user can enter a partial or complete
+	            text can be viewed in the Results Frame by checking the
+	            RNA information can be mapped onto the phylogenetic
+	            panel in the Selection Frame, the user can choose to
+	            phylogenetic/cell location groups can be selected,
+	            and four nucleotides. Each category can be searched
 ```
 in this case, when one looks for can without -w,the result of cannot will also shows up, whcih messed with the intention. 
 
 
 - Directory
   ```
-  linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" biomed
-  grep: biomed: No such file or directory
-  
+	  linda@Yutongs-MacBook-Pro biomed % grep -w "Darwin" biomed
+	  grep: biomed: No such file or directory
+	  
   ```
   unforfunately this command does not apply to directories, which makes it less useful in this case. 
   
@@ -233,9 +232,9 @@ in this case, when one looks for can without -w,the result of cannot will also s
 3. -n
 - Files
   ```
-  linda@Yutongs-MacBook-Pro biomed % grep -n "Darwin"  1471-2105-3-2.txt 
-  6:        In the 1830's, Charles Darwin's investigation of the
-  20:        In the 1970's, Woese and Fox revisited Darwinian
+	  linda@Yutongs-MacBook-Pro biomed % grep -n "Darwin"  1471-2105-3-2.txt 
+	  6:        In the 1830's, Charles Darwin's investigation of the
+	  20:        In the 1970's, Woese and Fox revisited Darwinian
   ```
   n display the number line of the matched resulte. It is useful when you try to describe a certain part of the artile to others but you only remember the content but do now remember the location.
 
@@ -243,21 +242,21 @@ in this case, when one looks for can without -w,the result of cannot will also s
 
   - files
     ```
-    linda@Yutongs-MacBook-Pro biomed % grep -n "Data" 1471-2105-3-2.txt 
-	575:            ("Data Frame;" H-2A.1). The collective scoring data
-	986:            Our goals for the "Sequence and Structure Data"
-	1005:            (see Section 4: Data Access Systems for more
-	1453:            ribosomal RNA. The "Intron Distribution Data" page
-	1496:          4. Data access systems
-	2249:          Database System
-	2355:        RDBMS = Relational Database Management System.
+	    linda@Yutongs-MacBook-Pro biomed % grep -n "Data" 1471-2105-3-2.txt 
+		575:            ("Data Frame;" H-2A.1). The collective scoring data
+		986:            Our goals for the "Sequence and Structure Data"
+		1005:            (see Section 4: Data Access Systems for more
+		1453:            ribosomal RNA. The "Intron Distribution Data" page
+		1496:          4. Data access systems
+		2249:          Database System
+		2355:        RDBMS = Relational Database Management System.
     ```
     by using -n and grep title-like keyworkds, one can easily locate where the disire content is
 
 - Directory
   ```
-  linda@Yutongs-MacBook-Pro technical % grep -n "Darwin"  biomed
-  grep: biomed: Is a directory
+	  linda@Yutongs-MacBook-Pro technical % grep -n "Darwin"  biomed
+	  grep: biomed: Is a directory
   ```
   n can only be applied on files.
 
