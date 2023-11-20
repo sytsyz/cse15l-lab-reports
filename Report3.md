@@ -263,7 +263,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
 4. -v
 - Files
   ```
-  	linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
+  linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
 
   
     
@@ -483,9 +483,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
           
             specific URLs.
           
-        
-      
-    ```
+  ```
   v is invert match. When applied to files, the result of lines that does not contains the key word will be displayed. This is useful when you want to view the file without undisred distracting informations. or words that do not contain a certian alphabet
 
 *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
