@@ -263,7 +263,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
 4. -v
 - Files
   ```
-  linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
+  	linda@Yutongs-MacBook-Pro biomed % grep -v "t" 1471-2105-3-2.txt   
 
 
         Background
@@ -494,8 +494,9 @@ the above looks fine in the preview, I do now know the reason behind its behavio
 *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
 
 - files
+  
   ```
-  grep -v "e" 1471-2105-3-2.txt   
+	  grep -v "e" 1471-2105-3-2.txt   
 
   
     
