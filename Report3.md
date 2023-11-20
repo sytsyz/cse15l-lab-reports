@@ -485,10 +485,6 @@ in this case, when one looks for can without -w,the result of cannot will also s
   v is invert match. When applied to files, the result of lines that does not contains the key word will be displayed. This is useful when you want to view the file without undisred distracting informations. or words that do not contain a certian alphabet
 
 
-**wired**
-
-   <img width="1036" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/b88c48f4-200a-4f71-ad1c-a52b4439b2a3">
-the above looks fine in the preview, I do now know the reason behind its behavior on website.
 
 
 *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
