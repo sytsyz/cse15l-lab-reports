@@ -245,7 +245,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
   *previously I thought the 2 examples must be one for file one for directoris, a new working example of files will be added*
 
   - files
-    ```
+
 	    linda@Yutongs-MacBook-Pro biomed % grep -n "Data" 1471-2105-3-2.txt 
 		575:            ("Data Frame;" H-2A.1). The collective scoring data
 		986:            Our goals for the "Sequence and Structure Data"
@@ -253,8 +253,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
 		1453:            ribosomal RNA. The "Intron Distribution Data" page
 		1496:          4. Data access systems
 		2249:          Database System
-		2355:        RDBMS = Relational Database Management System.
-    ```
+		2355:        RDBMS = Relational Database Management Systemm
 
 
 by using -n and grep title-like keyworkds, one can easily locate where the disire content is
