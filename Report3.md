@@ -257,13 +257,7 @@ in this case, when one looks for can without -w,the result of cannot will also s
     ```
     by using -n and grep title-like keyworkds, one can easily locate where the disire content is
 
-- Directory
-  ```
-	  linda@Yutongs-MacBook-Pro technical % grep -n "Darwin"  biomed
-	  grep: biomed: Is a directory
-  ```
-  n can only be applied on files.
-
+  
 4. -v
 - Files
   
