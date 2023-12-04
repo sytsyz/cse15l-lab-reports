@@ -1,6 +1,6 @@
-## Lab Report 5
+# Lab Report 5
 
-# part 1
+## part 1
 1. Original Post \
     Hi: \
    I am trying to finish the lab for the auto grading/grader review. And I get this error message
@@ -24,8 +24,8 @@ Caused by: java.lang.ClassNotFoundException: TestListExamples
         at org.junit.runner.JUnitCommandLineParseResult.parseParameters(JUnitCommandLineParseResult.java:98)
         ... 4 more
 
-FAILURES!!!
-Tests run: 1,  Failures: 1
+ FAILURES!!!
+ Tests run: 1,  Failures: 1
 ```
 I can clone and complie correctly, just not the final grading? Here is a screenshot of my code, please help me!!
 > <img width="1493" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/3eb7364e-a4d6-484b-9131-7325c9611678">
@@ -38,15 +38,16 @@ I can clone and complie correctly, just not the final grading? Here is a screens
 3. Student Trying \
    after change: \
    25
-   ```
+```
    javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java
-   ```
+```
    30:
-   ```
+```
    java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > output.txt
-   ```
+```
    terminal:
-   ```
+   
+```
    % bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
    Cloning into 'student-submission'...
    remote: Enumerating objects: 3, done.
@@ -63,7 +64,7 @@ I can clone and complie correctly, just not the final grading? Here is a screens
    Time: 0.02
 
    OK (1 test)
-   ```
+```
    The error was: the missing .: at the beginning of the path. Need to provide the full relative path to the desitnation, starting with . to indicate start at currrent working directory. The program does not automatically consider things located in the current directory.
 
    4. Summarize;
@@ -88,7 +89,7 @@ I can clone and complie correctly, just not the final grading? Here is a screens
       added ".:" to the begnning of paths of line 25 and 30 to complete the relative path.
 
 
-# part 2: reflection
+## part 2: reflection
 
 I was not familari with bash and never heard of vim before. After the learning in second half of the quater, I am more familar with bash, and will be able to ultlize it if I ever need to run something with repeated command lines. Same go for vim, it feels really handy knowing edits can be made in terminals by calling vim. And also I learned one of my lab tutor watches Formula 1 too, so that's cool.
 
