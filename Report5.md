@@ -5,7 +5,7 @@
     Hi: \
    I am trying to finish the lab for the auto grading/grader review. And I get this error message
 ```
-   There was 1 failure:
+There was 1 failure:
 1) initializationError(org.junit.runner.JUnitCommandLineParseResult)
 java.lang.IllegalArgumentException: Could not find class [TestListExamples]
         at org.junit.runner.JUnitCommandLineParseResult.parseParameters(JUnitCommandLineParseResult.java:100)
@@ -24,8 +24,8 @@ Caused by: java.lang.ClassNotFoundException: TestListExamples
         at org.junit.runner.JUnitCommandLineParseResult.parseParameters(JUnitCommandLineParseResult.java:98)
         ... 4 more
 
- FAILURES!!!
- Tests run: 1,  Failures: 1
+FAILURES!!!
+Tests run: 1,  Failures: 1
 ```
 I can clone and complie correctly, just not the final grading? Here is a screenshot of my code, please help me!!
 > <img width="1493" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/3eb7364e-a4d6-484b-9131-7325c9611678">
