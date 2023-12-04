@@ -27,9 +27,10 @@
 
 7. Commit and push the resulting change to your Github account
  ><img width="520" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/c3f6619d-376e-40d7-a0ea-c2eaf5a1155d">
- ```
-   'git commit' opens vim
+
+   'git commit' opens vim\
    key pressed:
+   ```
    <i> (start editing)
    "fix bug in listexamples"
    <esc> (exit editing mode)
