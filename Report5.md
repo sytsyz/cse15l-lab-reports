@@ -1,4 +1,6 @@
 ## Lab Report 5
+
+# part 1
 1. Original Post \
     Hi: \
    I am trying to finish the lab for the auto grading/grader review. And I get this error message
@@ -80,7 +82,16 @@ I can clone and complie correctly, just not the final grading? Here is a screens
 
       The contents of each files after fixing the bugs: \
       everything remians the same except for grade.sh
-      >
+      ><img width="1002" alt="image" src="https://github.com/sytsyz/cse15l-lab-reports/assets/146896888/dfb45047-494e-47a5-8d40-3a8f2167a5a3">
+
+      Description of bug: \
+      added ".:" to the begnning of paths of line 25 and 30 to complete the relative path.
+
+
+# part 2: reflection
+
+I was not familari with bash and never heard of vim before. After the learning in second half of the quater, I am more familar with bash, and will be able to ultlize it if I ever need to run something with repeated command lines. Same go for vim, it feels really handy knowing edits can be made in terminals by calling vim. And also I learned one of my lab tutor watches Formula 1 too, so that's cool.
+
       
 
       
